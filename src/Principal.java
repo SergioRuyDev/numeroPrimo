@@ -4,7 +4,7 @@ public class Principal {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
-        System.out.println("Digite um numero para saber se é primo: ");
+        System.out.println("Tecle um numero para saber se é primo: ");
         int numeroEscolhido = entrada.nextInt();
 
         if (primo(numeroEscolhido)) {
