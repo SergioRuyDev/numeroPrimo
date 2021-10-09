@@ -1,12 +1,11 @@
 import java.util.Scanner;
 
-public class Main {
+public class Principal {
     public static void main(String[] args) {
-
-        Scanner scanner = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         System.out.println("Digite um numero para saber se é primo: ");
-        int numeroEscolhido = scanner.nextInt();
+        int numeroEscolhido = entrada.nextInt();
 
         if (primo(numeroEscolhido)) {
             System.out.println(numeroEscolhido + " é um numero primo.");
@@ -15,7 +14,7 @@ public class Main {
         }
 
 
-        scanner.close();
+        entrada.close();
     }
 
     private static boolean primo(int numeroEscolhido) {
